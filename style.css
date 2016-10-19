@@ -1,0 +1,104 @@
+html, body {
+  height: 80%;
+}
+
+
+#body {
+  font-family: arial, sans-serif;
+}
+
+#menubar {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.menu {
+  display: inline-block;
+  margin-right: 18px;
+  margin-left: 18px;
+  text-align: right;
+}
+
+
+#signin p {
+  color: white;
+  background-color: #4285f4;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: solid;
+  border-color: #4285f4;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#main {
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#logo img {
+  display: block;
+  margin: auto;
+}
+
+
+a {
+  color: black;
+  font-size: 15px;;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+#textbox input{
+  display: block;
+  width: 300px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+#buttons {
+  padding-top: 15px;
+  width: 100%;
+}
+
+#button-wrap {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.buttons input{
+  border-radius: 5px;
+  height: 30px;
+}
+
+.buttons {
+  display: inline-block;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: #222;
+}
+
+#bottom-left, #bottom-right {
+  display: inline;
+  position: absolute;
+  bottom: 10px;
+}
+
+#bottom-left {
+  left: 0;
+}
+
+#bottom-right {
+  right: 0;
+}
